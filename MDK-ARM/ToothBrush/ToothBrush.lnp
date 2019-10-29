@@ -3,6 +3,8 @@
 "toothbrush\stm32f1xx_hal_msp.o"
 "toothbrush\stm32f1xx_it.o"
 "toothbrush\freertos.o"
+"toothbrush\lib_fifo.o"
+"toothbrush\bsp_uart.o"
 "toothbrush\system_stm32f1xx.o"
 "toothbrush\startup_stm32f103xb.o"
 "toothbrush\stm32f1xx_hal_rcc.o"

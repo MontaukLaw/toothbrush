@@ -42,3 +42,13 @@ toothbrush\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
 toothbrush\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 toothbrush\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 toothbrush\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
+toothbrush\main.o: ../Inc/user_com.h
+toothbrush\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+toothbrush\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+toothbrush\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
+toothbrush\main.o: ../Drivers/CMSIS/Include/core_cmFunc.h
+toothbrush\main.o: ../Inc/bsp_mpu6050.h
+toothbrush\main.o: ../Inc/DataScope_DP.h
+toothbrush\main.o: ../Inc/bsp_uart.h
+toothbrush\main.o: ../Inc/lib_fifo.h
+toothbrush\main.o: ../Inc/bsp_hmc5883.h

@@ -46,6 +46,7 @@
 #include "cmsis_os.h"
 
 /* USER CODE BEGIN Includes */
+#include "user_com.h"
 
 /* USER CODE END Includes */
 
@@ -296,15 +297,18 @@ static void MX_GPIO_Init(void) {
 /* StartDefaultTask function */
 void StartDefaultTask(void const *argument) {
 
-	/* USER CODE BEGIN 5 */
-	uint8_t *str = "test..";
-
-	Mpu6050Init();
+	/* USER CODE BEGIN 5 */	
+    uint8_t* testArr="12345678";
+    
+    DBGInit();
+	
+    //Mpu6050Init();
 
 	/* Infinite loop */
 	for (;;) {
 		HAL_Delay(1000);
-		HAL_UART_Transmit_IT(&huart2, str, 6);
+		DBG_LOG("test");
+        //HAL_UART_Transmit_IT(&huart1,testArr,8);
 		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, GPIO_PIN_RESET);
 		HAL_Delay(1000);
 		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, GPIO_PIN_SET);
