@@ -1,0 +1,13 @@
+toothbrush\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c
+toothbrush\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+toothbrush\port.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+toothbrush\port.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+toothbrush\port.o: ../Inc/FreeRTOSConfig.h
+toothbrush\port.o: ../Inc/main.h
+toothbrush\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+toothbrush\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+toothbrush\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+toothbrush\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+toothbrush\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+toothbrush\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+toothbrush\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
